@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Digite um número inteiro: ");
+﻿//5- Faça um programa que leia um número inteiro e exiba o seu cálculo fatorial e o resultado.
+
+Console.WriteLine("Digite um número inteiro: ");
 int numeroInteiro = int.Parse(Console.ReadLine());
 
 long fatorial = numeroInteiro;

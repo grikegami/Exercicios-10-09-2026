@@ -1,4 +1,6 @@
-﻿int valor;
+﻿//1- Faça um programa que leia um número inteiro e mostre a tabuada e um a dez.
+
+int valor;
 int contador = 0;
 int resultado;
 

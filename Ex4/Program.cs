@@ -1,34 +1,42 @@
-﻿int valorInteiro;
+﻿//4 - Faça um programa que leia um número inteiro e mostre todos os números primos até ele, inclusive ele se for primo.
 
+//Declaração de variáveis
+int valorInteiro;
+
+//Entrada de dados
 Console.WriteLine("Digite o valor inteiro: ");
 valorInteiro = int.Parse(Console.ReadLine());
+Console.Clear();
 
-bool condicao;
+//Declaração de variáveis
+int numeroAuxiliar = valorInteiro;
+bool validador;
 
-if (valorInteiro <= 0)
+//Lógica para verificar se o número é primo e já imprimir os números primos encontrados
+while (numeroAuxiliar > 0)
 {
-    Console.WriteLine("O valor digitado não é válido. Digite um número inteiro maior que zero.");
-    condicao = false;
-}
-else if (valorInteiro > 0 && valorInteiro == 1)
-{
-    Console.WriteLine("O valor digitado não é um número primo. ");
-    condicao = false;
-}
-else if (valorInteiro > 1)
-{
-    for (int i = 2; i < valorInteiro; i++)
+    int contador = 0;
+
+    for (int divisor = numeroAuxiliar; divisor > 0; divisor--)
     {
-        if (valorInteiro % i == 0)
+        if (numeroAuxiliar % divisor == 0)
         {
-            Console.WriteLine("O valor digitado não é um número primo. ");
-            condicao = false;
-            break;
+            contador++;
         }
     }
-}
-else
-{
-    Console.WriteLine("O valor digitado é um número primo. ");
-    condicao = true;
+
+    if (contador == 2)
+    {
+        validador = true;
+    }else
+    {
+        validador = false;
+    }
+
+    if (validador)
+    {
+        Console.WriteLine(numeroAuxiliar + " ===== (OK)");
+    }
+
+    numeroAuxiliar--;
 }

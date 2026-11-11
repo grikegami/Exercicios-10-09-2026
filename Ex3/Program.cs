@@ -1,4 +1,6 @@
-﻿int entrada;
+﻿//3- Faça um programa que leia um número inteiro e mostre primeiramente todos os valores ímpares (Na ordem crescente) e depois os valores pares (Na ordem decrescente).
+
+int entrada;
 
 Console.WriteLine("Digite um número inteiro: ");
 entrada = int.Parse(Console.ReadLine());
