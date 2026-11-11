@@ -1,0 +1,11 @@
+EXERCÍCIOS 10/11/2025
+
+1- Faça um programa que leia um número inteiro e mostre a tabuada e um a dez.
+
+2- Faça um programa que leia um número inteiro, esse número é a posição até onde a sequência fibonacci será exibida.
+
+3- Faça um programa que leia um número inteiro e mostre primeiramente todos os valores ímpares (Na ordem crescente) e depois os valores pares (Na ordem decrescente).
+
+4- Faça um programa que leia um número inteiro e mostre todos os números primos até ele, inclusive ele se for primo.
+
+5- Faça um programa que leia um número inteiro e exiba o seu cálculo fatorial e o resultado.

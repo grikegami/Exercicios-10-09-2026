@@ -1,3 +1,8 @@
 <Solution>
+  <Project Path="Ex1/Ex1.csproj" Id="15e76f2a-9123-4022-a653-359120470f68" />
+  <Project Path="Ex2/Ex2.csproj" Id="c8c14bfb-68c5-440d-b71b-8ca93efc45d1" />
+  <Project Path="Ex3/Ex3.csproj" Id="c78077f6-6408-4f69-b621-91715acb0b14" />
+  <Project Path="Ex4/Ex4.csproj" Id="a7e8331c-7a75-494b-890b-a955f9d94261" />
+  <Project Path="Ex5/Ex5.csproj" Id="2928d0b0-91d3-4fcc-81e9-9e4fb8a4d9d8" />
   <Project Path="LacosRepeticao/LacosRepeticao.csproj" />
 </Solution>
